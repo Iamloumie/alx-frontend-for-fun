@@ -874,30 +874,34 @@ label {
     padding: 0 0 .5rem;
 }
 
+/* Style for all text, email inputs and textarea */
 input[type="text"],
 input[type="email"],
 textarea {
-    position: relative;
-    width: 100%;
-    padding: 1.2rem;
-    line-height: 1;
-    border: 0.1rem solid var(--color-black);
-    background-color: var(--color-white);
-    box-shadow: none;
-    outline: 0;
+  position: relative;
+  width: 100%;
+  padding: 1.2rem;
+  line-height: 1;
+  border: 0.1rem solid var(--color-black);
+  background-color: var(--color-white);
+  box-shadow: none;
+  outline: 0;
 }
 
+/* Extra padding for text and email inputs */
 input[type="text"],
 input[type="email"] {
-    padding-right: 3rem;
+  padding-right: 3rem;
 }
 
+/* Focus state for text, email inputs and textarea */
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-    border: 0.1rem solid var(--color-grey);
-    background-color: var(--color-light-grey);
+  border: 0.1rem solid var(--color-grey);
+  background-color: var(--color-light-grey);
 }
+
 
 ::placeholder {
     font-style: italic;
