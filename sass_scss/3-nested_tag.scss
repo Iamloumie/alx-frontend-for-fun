@@ -1,0 +1,10 @@
+// nested tags
+// Description: This SCSS file demonstrates how to use nested selectors for styling paragraphs within the body.
+
+body {
+    margin: 0px;
+    padding: 0px;
+    p {
+        margin: 10px;
+    }
+}

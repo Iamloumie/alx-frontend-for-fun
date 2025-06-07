@@ -1,0 +1,18 @@
+// This file is part of the SCSS example project
+// description: This file demonstrates nested selectors in SCSS
+
+$body-font-size: 14px;
+$h1-font-size: 16px;
+$h1-small-font-size: 12px;
+
+body {
+    font-size: $body-font-size;
+
+    h1 {
+        font-size: $h1-font-size;
+    }
+
+    h1.smaller {
+        font-size: $h1-small-font-size;
+    }
+}

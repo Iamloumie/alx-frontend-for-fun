@@ -1,0 +1,13 @@
+// Nested class example
+// Description: This SCSS file demonstrates how to use nested classes to apply styles to elements within a specific class.
+
+$text-color: #3D3D3D;
+
+$red-class-text-color: #FF0000;
+
+body {
+    color: $text-color;
+    .red {
+        color: $red-class-text-color;
+    }
+}

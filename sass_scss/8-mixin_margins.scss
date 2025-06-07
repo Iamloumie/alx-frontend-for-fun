@@ -1,0 +1,15 @@
+// using mixin
+// Description: This SCSS file defines a mixin for setting left and right margins.
+
+@mixin marginLR($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+body {
+  @include marginLR(10px);
+}
+
+div {
+  @include marginLR(15px);
+}

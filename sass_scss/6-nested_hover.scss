@@ -1,0 +1,13 @@
+// nested hover styles
+// Description: This SCSS file demonstrates how to use nested selectors for hover effects on buttons.
+
+$button-text-color: #FF0000;
+$button-hover-text-color: #00FF00;
+
+button {
+    color: $button-text-color;
+
+    &:hover {
+        color: $button-hover-text-color;
+    }
+}

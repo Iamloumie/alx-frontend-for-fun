@@ -1,0 +1,14 @@
+// Nested child selector example
+// Description: This SCSS file demonstrates the use of a nested child selector to style elements within a parent class.
+
+$text-color: #3D3D3D;
+
+$red-class-child-text-color: #FF0000;
+
+body {
+    color: $text-color;
+
+    > .red {
+        color: $red-class-child-text-color;
+    }
+}

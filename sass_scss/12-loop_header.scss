@@ -1,0 +1,7 @@
+// Use @for loop to generate h1 to h5 with corresponding font sizes
+
+@for $i from 1 through 5 {
+  h#{$i} {
+    font-size: #{$i}px;
+  }
+}
